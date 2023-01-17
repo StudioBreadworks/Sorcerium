@@ -19,10 +19,12 @@ body:
     id: minecraft_version
     attributes:
       label: Version
-      description: What version of **Mod** are you using?
+      description: What version of **Minecraft** are you using?
       options:
         - 1.19.2
         - 1.16.5
+    validations:
+      required: true
   - type: textarea
     id: what-happened
     attributes:
