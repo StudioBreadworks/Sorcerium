@@ -27,8 +27,6 @@ body:
         - 1.16.5
     validations:
       required: true
-  - type: input
-    id: forge-version
   - type: textarea
     id: what-happened
     attributes:
