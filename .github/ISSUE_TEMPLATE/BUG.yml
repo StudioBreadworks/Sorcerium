@@ -15,7 +15,7 @@ body:
         - 1.1.0
         - 1.0.1 
         - 1.0.0
-          - type: dropdown
+  - type: dropdown
     id: minecraft version
     attributes:
       label: Version
