@@ -43,11 +43,7 @@ body:
       value: "A bug happened!"
     validations:
       required: true
-  - type: checkboxes
-    id: terms
+  - type: markdown
+    id: discord
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      value: Join our [**Discord**](https://discord.gg/TfUuCBmU2x)
