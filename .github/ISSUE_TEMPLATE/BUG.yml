@@ -29,6 +29,8 @@ body:
       required: true
   - type: input
     id: forge-version
+    attributes:
+      label: What **Forge** version are you using?
   - type: textarea
     id: what-happened
     attributes:
