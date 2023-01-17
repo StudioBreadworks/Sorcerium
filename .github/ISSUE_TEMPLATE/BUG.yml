@@ -15,6 +15,8 @@ body:
         - 1.1.0
         - 1.0.1 
         - 1.0.0
+    Validations:
+      required: true
   - type: dropdown
     id: minecraft_version
     attributes:
@@ -25,6 +27,12 @@ body:
         - 1.16.5
     validations:
       required: true
+  - type: input
+    id: forge-version
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
   - type: textarea
     id: what-happened
     attributes:
