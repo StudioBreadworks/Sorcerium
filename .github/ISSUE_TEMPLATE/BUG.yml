@@ -4,7 +4,7 @@ title: "[Bug]: "
 labels: ["Bug", "triage"]
 body:
   - type: dropdown
-    id: mod version
+    id: mod_version
     attributes:
       label: Version 
       description: What version of our **Mod** are you using?
@@ -16,7 +16,7 @@ body:
         - 1.0.1 
         - 1.0.0
   - type: dropdown
-    id: minecraft version
+    id: minecraft_version
     attributes:
       label: Version
       description: What version of **Mod** are you using?
