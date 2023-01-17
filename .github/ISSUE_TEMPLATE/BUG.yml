@@ -4,9 +4,9 @@ title: "[Bug]: "
 labels: ["Bug"]
 body:
   - type: dropdown
-    id: mod_version
+    id: mod-version
     attributes:
-      label: Version 
+      label: Mod Version 
       description: What version of our **Mod** are you using?
       options:
         - 1.1.3
@@ -18,9 +18,9 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: minecraft_version
+    id: minecraft-version
     attributes:
-      label: Version
+      label: Minecraft Version
       description: What version of **Minecraft** are you using?
       options:
         - 1.19.2
@@ -30,8 +30,8 @@ body:
   - type: input
     id: forge-version
     attributes:
-      label: Version
-      description: What Forge version are you using?
+      label: Forge Version
+      description: What **Forge** version are you using?
     validations:
       required: true
   - type: textarea
