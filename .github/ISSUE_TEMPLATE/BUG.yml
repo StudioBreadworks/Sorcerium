@@ -30,7 +30,9 @@ body:
   - type: input
     id: forge-version
     attributes:
-      label: What **Forge** version are you using?
+      label: What Forge version are you using?
+    validations:
+      required: true
   - type: textarea
     id: what-happened
     attributes:
