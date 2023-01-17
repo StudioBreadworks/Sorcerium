@@ -1,10 +1,12 @@
 ---
 name: Bug
 about: Report bugs here
-title: What is the bug?
+title: Title
 labels: ''
 assignees: ''
 
 ---
 
-
+Minecraft Version:
+Mod Version: 
+Forge Version:
