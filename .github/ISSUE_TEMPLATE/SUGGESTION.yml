@@ -7,7 +7,7 @@ body:
     id: name
     attributes:
       label: Your Name
-      description: How can we addres you?
+      description: How can we address you?
   - type: textarea
     id: suggestion
     attributes:
