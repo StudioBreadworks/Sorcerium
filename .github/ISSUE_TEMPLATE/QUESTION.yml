@@ -7,7 +7,7 @@ body:
     id: question
     attributes:
       label: What is your question?
-      description: you need to know something?
+      description: Do you need to know something?
     validations:
       required: true
   - type: markdown
