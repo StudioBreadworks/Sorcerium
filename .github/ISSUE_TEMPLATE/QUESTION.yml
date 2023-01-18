@@ -1,0 +1,16 @@
+name: Question
+description: Ask a question
+title: "[Question]: "
+labels: ["Question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: What is your question?
+      description: you need to know something?
+    validations:
+      required: true
+  - type: markdown
+    id: discord
+    attributes:
+      value: Join our [Discord](https://discord.gg/TfUuCBmU2x) for more information and daily updates!
